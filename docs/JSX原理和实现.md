@@ -79,4 +79,13 @@ plugins: [['@babel/plugin-transform-react-jsx', { pragma: 'createElement' }]]
 这样，`React.createElement`就改为了`createElement`
 
 6.实现 `createElement`，并挂载在<body></body>
-具体代码及注释，参考 src/main-easy.js
+
+- 支持简易的标签挂载，属性设置，文本和子节点挂载
+  具体代码及注释，参考 src/v1/main.js
+
+7.实现自定义组件，抽离核心 react，props 及子节点
+
+- 实现 ElementWrapper TextWrapper Component createElement
+
+- 简易版 react，支持 元素渲染 子节点嵌套(类似slot)
+  具体代码，参考 src/v2 目录
