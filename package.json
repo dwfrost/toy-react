@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:v1": "webpack-dev-server --config webpack.dev.js --open v1",
-    "dev:v2": "webpack-dev-server --config webpack.dev.js --open v2"
+    "dev:v2": "webpack-dev-server --config webpack.dev.js --open v2",
+    "dev:v3": "webpack-dev-server --config webpack.dev.js --open v3",
+    "dev:v4": "webpack-dev-server --config webpack.dev.js --open v4"
   },
   "repository": {
     "type": "git",
